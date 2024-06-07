@@ -45,7 +45,6 @@ def map_boarding_alighting(value):
     else:
         return '하차'
     
-    
 # MAPE, MPE 계산 함수 정의
 def mean_absolute_percentage_error(y_true, y_pred): 
     return np.mean(np.abs((y_true - y_pred) / y_true)) * 100
